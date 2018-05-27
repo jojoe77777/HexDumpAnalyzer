@@ -1,0 +1,14 @@
+name: HexDumpAnalyzer
+main: jojoe77777\HexDumpAnalyzer\Main
+version: 1.0.0
+api: [3.0.0-ALPHA11, 3.0.0-ALPHA12]
+author: jojoe77777
+
+commands:
+  parsehexdump:
+    description: Reconstructs a packet from a hex dump and dumps the packet info
+    permission: hexdumpanalyzer.parsehex
+    usage: "/parsehexdump <packet name> <hex>"
+permissions:
+  hexdumpanalyzer.parsehex:
+    default: op
