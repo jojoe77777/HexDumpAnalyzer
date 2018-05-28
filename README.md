@@ -3,10 +3,10 @@ Allows you to look at the contents of a packet from hex form
 
 # Usage
 
-`/parsehexdump <packet name> <hex>`
+`/parsehexdump <hex>`
 e.g
 ```
-parsehexdump ModalFormResponsePacket 0x650000c4fb8fd90f056e756c6c0a
+parsehexdump 0x650000c4fb8fd90f056e756c6c0a
 object(pocketmine\network\mcpe\protocol\ModalFormResponsePacket)#10156 (7) {
   ["formId"]=>
   int(4213439940)
